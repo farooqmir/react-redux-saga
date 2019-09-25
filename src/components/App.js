@@ -7,7 +7,6 @@ import PropTypes from "prop-types";
 import React from "react";
 import { hot } from "react-hot-loader";
     
-import { Network} from "mshrq-core";
  
  
 
@@ -15,7 +14,7 @@ class App extends React.Component {
   render() {
 
     
-    console.log(Network);
+    
     // console.log("001 - ",Utilities);
     
     const activeStyle = { color: 'blue' };
